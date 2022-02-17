@@ -1,0 +1,14 @@
+<div class="grid-item">
+  <div class="user-information">
+    <p><b>first name:</b> {{user.firstName}}</p>
+    <p><b>last name:</b> {{user.lastName}}</p>
+    <p><b>username:</b> {{user.userName}}</p>
+    <p><b>eMail:</b> {{user.eMail}}</p>
+    <p><b>phone number:</b> {{user.phoneNumber}}</p>
+    <p><b>id:</b> {{user.id}}</p>
+  </div>
+  <div class="crud-bar">
+    <button class="btn btn-info">update</button>
+    <button (click)="delete()" class="btn btn-danger">delete</button>
+  </div>
+</div>
